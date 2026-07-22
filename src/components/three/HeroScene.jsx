@@ -68,7 +68,7 @@ export default function HeroScene() {
     <div className="hero-scene-container">
       <Canvas
         shadows
-        frameloop="demand"
+        frameloop="always"
         dpr={[1, 2]}
         gl={{ preserveDrawingBuffer: true, alpha: false }}
         camera={{
