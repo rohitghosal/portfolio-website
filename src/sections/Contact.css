@@ -435,3 +435,22 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 480px) {
+  .contact__form {
+    padding: 1.25rem 1rem;
+  }
+
+  .contact__badge {
+    width: 90px;
+    height: 90px;
+  }
+
+  .contact__badge-inner {
+    font-size: 1.2rem;
+  }
+
+  .contact__submit {
+    width: 100%;
+  }
+}

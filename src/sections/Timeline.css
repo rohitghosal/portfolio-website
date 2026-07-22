@@ -99,3 +99,24 @@
     left: 22px;
   }
 }
+
+@media (max-width: 480px) {
+  .timeline__item--left,
+  .timeline__item--right {
+    padding-left: 50px;
+  }
+
+  .timeline__line, .timeline__dot {
+    left: 16px;
+  }
+
+  .timeline__dot {
+    width: 32px;
+    height: 32px;
+    font-size: 0.9rem;
+  }
+
+  .timeline__card {
+    padding: 1.25rem 1rem;
+  }
+}

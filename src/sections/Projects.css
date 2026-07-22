@@ -160,3 +160,18 @@
     padding: 1.5rem;
   }
 }
+
+@media (max-width: 480px) {
+  .project-card {
+    padding: 1.25rem;
+  }
+  
+  .project-card__title {
+    font-size: 1.4rem;
+  }
+
+  .project-card__tag {
+    font-size: 0.65rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
