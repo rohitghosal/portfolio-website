@@ -209,7 +209,11 @@
 
 @media (max-width: 768px) {
   .navbar {
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 1.25rem;
+    width: auto;
+    left: 1rem;
+    right: 1rem;
+    transform: none;
   }
 
   .navbar__hamburger {
