@@ -1,0 +1,27 @@
+/* App Layout */
+.app {
+  position: relative;
+  min-height: 100vh;
+}
+
+.main-content {
+  position: relative;
+  z-index: var(--z-content);
+}
+
+/* Light mode: gradual wash behind content — starts after hero so globe stays clear */
+[data-theme="light"] .main-content {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 10%,
+    rgba(248, 246, 242, 0.5) 20%,
+    rgba(248, 246, 242, 0.88) 35%,
+    rgba(248, 246, 242, 0.92) 100%
+  );
+}
+
+/* Liquid Glass enhanced elements — fallback already handled by .glass class */
+.liquid-glass {
+  position: relative;
+}

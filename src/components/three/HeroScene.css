@@ -1,0 +1,20 @@
+.hero-scene-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: var(--z-canvas);
+  pointer-events: none;
+}
+
+.hero-scene-container > canvas {
+  pointer-events: auto;
+}
+
+/* Stars canvas sits behind the Earth canvas */
+.stars-canvas-container {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}

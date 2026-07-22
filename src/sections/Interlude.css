@@ -1,0 +1,31 @@
+.interlude {
+  position: relative;
+  z-index: var(--z-content);
+  padding: var(--space-xl) 0;
+  overflow: hidden;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.interlude__word-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.interlude__word {
+  display: block;
+  font-size: clamp(4rem, 12vw, 10rem);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  color: transparent;
+  -webkit-text-stroke: 2px var(--accent-violet);
+  text-stroke: 2px var(--accent-violet);
+  opacity: 0.2;
+  white-space: nowrap;
+  will-change: transform;
+  text-align: center;
+}

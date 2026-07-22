@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO -->
+    <title>Rohit Ghosal — Cyber Security Consultant & Developer</title>
+    <meta name="description" content="Portfolio of Rohit Ghosal — Senior Cyber Security Consultant at PwC India. Specializing in Threat Intelligence, OSINT, Full-Stack Development, and DevSecOps." />
+    <meta name="keywords" content="Rohit Ghosal, Cyber Security, PwC, Threat Intelligence, OSINT, Portfolio, Developer" />
+    <meta name="author" content="Rohit Ghosal" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Rohit Ghosal — Cyber Security Consultant & Developer" />
+    <meta property="og:description" content="Senior Associate at PwC India. Threat Intelligence, OSINT, Full-Stack Development." />
+    <meta property="og:type" content="website" />
+    
+    <!-- Favicon (simple gradient) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+    
+    <!-- Preconnect Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Inline theme detection (no flash) -->
+    <script>
+      (function() {
+        var theme = localStorage.getItem('portfolio-theme');
+        if (!theme) {
+          theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        }
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
+    
+    <style>
+      /* Prevent FOUC */
+      html { background-color: #06060e; }
+      html[data-theme="light"] { background-color: #f8f6f2; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
