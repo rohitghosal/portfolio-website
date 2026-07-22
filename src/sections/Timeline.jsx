@@ -31,16 +31,16 @@ const timelineItems = [
     type: 'career',
   },
   {
-    year: '2024',
-    title: "Chairperson's Award",
-    description: 'Received prestigious award for exceptional performance and contribution at PwC India',
-    type: 'achievement',
-  },
-  {
     year: '2025',
     title: 'Certified Threat Intelligence Analyst',
     description: 'Achieved CTIA certification, validating expertise in threat intelligence',
     type: 'certification',
+  },
+  {
+    year: '2025',
+    title: "Chairperson's Award",
+    description: 'Received prestigious award for exceptional performance and contribution at PwC India',
+    type: 'achievement',
   },
   {
     year: '2026',
